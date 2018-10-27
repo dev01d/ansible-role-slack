@@ -1,0 +1,4 @@
+---
+# defaults file slack role
+message: '{{ inventory_hostname }}.'
+slack_token: '{{ slack_token }}'

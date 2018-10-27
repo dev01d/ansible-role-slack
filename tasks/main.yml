@@ -1,0 +1,8 @@
+---
+  - name: Send message to slack channel
+    slack:
+      token: '{{ slack_token }}'
+      msg: '{{ message }}.'
+      color: 'good'
+      username: ''
+      icon_url: ''
